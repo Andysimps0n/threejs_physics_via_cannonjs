@@ -19,7 +19,7 @@ import {
 import { useRef, useMemo, useEffect } from 'react'
 
 import { useControls } from 'leva'
-
+  
 function Plane({ tilt, rotation }) {
   const [ref, api] = usePlane(() => ({ mass: 0, rotation }), useRef())
 
